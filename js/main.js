@@ -43,42 +43,42 @@ $(document).ready(function(){
 		switch (weather) {
 			case "mist":
 				$('#bg-image').css({
-					'background-image': 'url(img/mist-pepe.jpg)',
+					'background-image': 'url(img/mist.jpg)',
 					'background-repeat': 'no-repeat',
 					'background-size': 'cover'
 				});
 				break;
 			case "clear sky":
 				$('body').css({
-					'background-image': 'url(img/clearSky-pepe.jpg)',
+					'background-image': 'url(img/clearSky.jpg)',
 					'background-repeat': 'no-repeat',
 					'background-size': 'cover'
 				});
 				break;
 			case "snow":
 				$('body').css({
-					'background-image': 'url(img/snow-pepe.jpg)',
+					'background-image': 'url(img/snow.jpg)',
 					'background-repeat': 'no-repeat',
 					'background-size': 'cover'
 				});
 				break;
 			case "thunderstorm":
 				$('body').css({
-					'background-image': 'url(img/thunderstorm-pepe.jpg)',
+					'background-image': 'url(img/thunderstorm.jpg)',
 					'background-repeat': 'no-repeat',
 					'background-size': 'cover'
 				});
 				break;
 			case "rain":
 				$('body').css({
-					'background-image': 'url(img/rain-pepe.jpg)',
+					'background-image': 'url(img/rain.jpg)',
 					'background-repeat': 'no-repeat',
 					'background-size': 'cover'
 				});
 				break;
 			default: 
 				$('body').css({
-					'background-image': 'url(img/clouds-pepe.jpg)',
+					'background-image': 'url(img/clouds.jpg)',
 					'background-repeat': 'no-repeat',
 					'background-size': 'cover'
 				});
